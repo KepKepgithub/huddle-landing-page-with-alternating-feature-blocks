@@ -1,5 +1,15 @@
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 300px) {
+    .footer_wrap{
+        background-color: $dark_cyan;
+        color: $pale_cyan;
+        // padding-bottom: 1em;
+        text-align: center;
+        // a{
+        //     text-decoration: none;
+        //     color: pink;
+        // }
+    }
 }
 
 /* TABLET LANDSCAPE / DESKTOP */

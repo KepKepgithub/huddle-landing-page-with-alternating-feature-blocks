@@ -34,11 +34,6 @@ h1 {
     width: 90%;
     margin: auto;
   }
-  footer {
-    max-width: 1440px;
-    width: 90%;
-    margin: auto;
-  }
 }
 
 /* TABLET LANDSCAPE / DESKTOP */
@@ -264,10 +259,19 @@ h1 {
     background-color: #00252e;
     color: #ebfbff;
     padding-bottom: 2em;
+    text-align: center;
   }
 }
 
 /* TABLET LANDSCAPE / DESKTOP */
 /* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  .footer_wrap {
+    background-color: #00252e;
+    color: #ebfbff;
+    text-align: center;
+  }
+}
+
 /* TABLET LANDSCAPE / DESKTOP */
 /*# sourceMappingURL=main.css.map */
