@@ -269,7 +269,12 @@ h1 {
   .footer_wrap {
     background-color: #00252e;
     color: #ebfbff;
+    padding-bottom: 1em;
     text-align: center;
+  }
+  .footer_wrap a {
+    text-decoration: none;
+    color: pink;
   }
 }
 
