@@ -1,5 +1,10 @@
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 300px) {
+    .copyright{
+        background-color: $dark_cyan;
+        color: $pale_cyan;
+        padding-bottom: 2em;
+    }
 }
 
 /* TABLET LANDSCAPE / DESKTOP */

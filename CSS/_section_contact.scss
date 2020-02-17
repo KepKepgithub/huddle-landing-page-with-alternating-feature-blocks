@@ -2,6 +2,57 @@
 @media only screen and (min-width: 300px) {
     .contact{
         background-color: $dark_cyan;
+        padding-top: 10em;
+        .content_wrap{
+            img{
+                width: 12rem;
+                margin-bottom: 2em;
+            }
+            .contact_piece{
+                color: $pale_cyan;
+                p{
+                    margin-bottom: 1em;
+                }
+                img{
+                    width: 1rem;
+                    margin:0;
+                    margin-right: 1em;
+                }
+            }
+            // spaces the location/email/phone away from the rest of the contacts like in example
+            .contact_piece:nth-child(2){
+                margin-bottom: 3.5em;
+                span{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1em;
+                    p{
+                        margin-bottom: 0;
+                    }
+                }
+                // aligns the location logo to the start of the text
+                span:nth-child(1){
+                    img{
+                        align-self: flex-start;
+                    }
+                    p{
+                        margin-top: -0.3em;// was bothering me that the text wasn't quite aligned with the icon so I manually adjusted it
+                    }
+                }
+            }
+            // Career/blog/contact us section
+            .contact_piece:nth-child(4){
+                margin-bottom: 4em;
+            }
+            // Social media
+            .contact_piece:nth-child(5){
+                @include center;
+                padding-bottom: 3em;
+                img{
+                    width: 2em;
+                }
+            }
+        }
     }
 }
 

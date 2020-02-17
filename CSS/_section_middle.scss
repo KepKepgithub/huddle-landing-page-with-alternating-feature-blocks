@@ -27,9 +27,6 @@
                     margin-bottom: 3.5em;
                 }
             }
-            .middle_piece:nth-child(3){
-                
-            }
             // the overlapping element
             :nth-child(4){
                 @include center;
@@ -37,9 +34,9 @@
                 position: absolute;
                 background-color: white;
                 z-index: 20;
-                bottom: -6.5%;
-                height: 10%;
-                width: 105%;
+                bottom: -7em;
+                height: 10em;
+                width: 22.5em;
                 h1{
                     margin-bottom: 0;
                     font-size: 1.1rem;

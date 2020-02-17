@@ -34,7 +34,7 @@ h1 {
     width: 90%;
     margin: auto;
   }
-  footer, .copyright {
+  footer {
     max-width: 1440px;
     width: 90%;
     margin: auto;
@@ -109,7 +109,7 @@ h1 {
   .build .content_wrap article .button {
     background-color: #ff52bf;
     color: #ebfbff;
-    width: 80%;
+    width: 18rem;
     margin: auto;
     padding: .7em 0 .7em 0;
     border-radius: 5em;
@@ -176,9 +176,9 @@ h1 {
     position: absolute;
     background-color: white;
     z-index: 20;
-    bottom: -6.5%;
-    height: 10%;
-    width: 105%;
+    bottom: -7em;
+    height: 10em;
+    width: 22.5em;
   }
   .middle .content_wrap :nth-child(4) h1 {
     margin-bottom: 0;
@@ -198,6 +198,72 @@ h1 {
 @media only screen and (min-width: 300px) {
   .contact {
     background-color: #00252e;
+    padding-top: 10em;
+  }
+  .contact .content_wrap img {
+    width: 12rem;
+    margin-bottom: 2em;
+  }
+  .contact .content_wrap .contact_piece {
+    color: #ebfbff;
+  }
+  .contact .content_wrap .contact_piece p {
+    margin-bottom: 1em;
+  }
+  .contact .content_wrap .contact_piece img {
+    width: 1rem;
+    margin: 0;
+    margin-right: 1em;
+  }
+  .contact .content_wrap .contact_piece:nth-child(2) {
+    margin-bottom: 3.5em;
+  }
+  .contact .content_wrap .contact_piece:nth-child(2) span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 1em;
+  }
+  .contact .content_wrap .contact_piece:nth-child(2) span p {
+    margin-bottom: 0;
+  }
+  .contact .content_wrap .contact_piece:nth-child(2) span:nth-child(1) img {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .contact .content_wrap .contact_piece:nth-child(2) span:nth-child(1) p {
+    margin-top: -0.3em;
+  }
+  .contact .content_wrap .contact_piece:nth-child(4) {
+    margin-bottom: 4em;
+  }
+  .contact .content_wrap .contact_piece:nth-child(5) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 3em;
+  }
+  .contact .content_wrap .contact_piece:nth-child(5) img {
+    width: 2em;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  .copyright {
+    background-color: #00252e;
+    color: #ebfbff;
+    padding-bottom: 2em;
   }
 }
 
