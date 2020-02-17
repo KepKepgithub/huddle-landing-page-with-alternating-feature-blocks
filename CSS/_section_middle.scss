@@ -1,0 +1,61 @@
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+    .middle{
+        .content_wrap{
+            @include center;
+            flex-direction: column;
+            position: relative;
+            padding-bottom: 13em;
+            .middle_piece{
+                box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.20);
+                margin-bottom: 2em;
+                text-align: center;
+                padding: 3em 1.2em 3em 1.2em;
+                border-radius: 2em;
+                color: $dark_cyan;
+
+                h1{
+                    font-size: 1.4rem;
+                    margin-bottom: 1em;
+                }
+                p{
+                    font-size: 1.1rem;
+                    color: $grayish_blue;
+                }
+                img{
+                    width: 85%;
+                    margin-bottom: 3.5em;
+                }
+            }
+            .middle_piece:nth-child(3){
+                
+            }
+            // the overlapping element
+            :nth-child(4){
+                @include center;
+                flex-direction: column;
+                position: absolute;
+                background-color: white;
+                z-index: 20;
+                bottom: -6.5%;
+                height: 10%;
+                width: 105%;
+                h1{
+                    margin-bottom: 0;
+                    font-size: 1.1rem;
+                    margin-bottom: 1em;
+                }
+                .button{
+                    background-color: $pink;
+                    color: $pale_cyan;
+                    padding: 0.5em 2em 0.5em 2em;
+                    border-radius: 2.5em;
+                }
+            }
+        }
+    }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+}

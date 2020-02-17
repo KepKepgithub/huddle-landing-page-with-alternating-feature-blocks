@@ -1,0 +1,16 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "variables";
+@import "global";
+@import "mixins";
+@import "header";
+@import "section_build";
+@import "section_middle";
+@import "section_contact";
+@import "footer"

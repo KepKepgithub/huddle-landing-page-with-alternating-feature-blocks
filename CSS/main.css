@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media only screen and (min-width: 300px) {
+  html {
+    overflow-x: hidden;
+  }
+  img {
+    max-width: 100%;
+  }
+  section {
+    width: 100%;
+  }
+  section .content_wrap {
+    max-width: 1440px;
+    width: 90%;
+    margin: auto;
+  }
+  footer, .copyright {
+    max-width: 1440px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  header {
+    padding-top: 1.5em;
+    margin-bottom: 5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header img {
+    width: 40%;
+  }
+  header .button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    background-color: white;
+    padding: .3rem 2rem .3rem 2rem;
+    font-weight: bold;
+    font-size: .8rem;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  .build {
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: 55%;
+    background-position-x: -1.2em;
+    background-color: #ebfbff;
+    padding-bottom: 2em;
+    margin-bottom: 4.5em;
+  }
+  .build .content_wrap article .text_wrap {
+    text-align: center;
+    color: #00252e;
+    margin-bottom: 4em;
+  }
+  .build .content_wrap article .text_wrap h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1em;
+  }
+  .build .content_wrap article .text_wrap p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5em;
+  }
+  .build .content_wrap article .button {
+    background-color: #ff52bf;
+    color: #ebfbff;
+    width: 80%;
+    margin: auto;
+    padding: .7em 0 .7em 0;
+    border-radius: 5em;
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  .middle .content_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    padding-bottom: 13em;
+  }
+  .middle .content_wrap .middle_piece {
+    -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+    text-align: center;
+    padding: 3em 1.2em 3em 1.2em;
+    border-radius: 2em;
+    color: #00252e;
+  }
+  .middle .content_wrap .middle_piece h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+  }
+  .middle .content_wrap .middle_piece p {
+    font-size: 1.1rem;
+    color: #808d99;
+  }
+  .middle .content_wrap .middle_piece img {
+    width: 85%;
+    margin-bottom: 3.5em;
+  }
+  .middle .content_wrap :nth-child(4) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    background-color: white;
+    z-index: 20;
+    bottom: -6.5%;
+    height: 10%;
+    width: 105%;
+  }
+  .middle .content_wrap :nth-child(4) h1 {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+  }
+  .middle .content_wrap :nth-child(4) .button {
+    background-color: #ff52bf;
+    color: #ebfbff;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 2.5em;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+  .contact {
+    background-color: #00252e;
+  }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+/* SMARTPHONES PORTRAIT */
+/* TABLET LANDSCAPE / DESKTOP */
+/*# sourceMappingURL=main.css.map */
