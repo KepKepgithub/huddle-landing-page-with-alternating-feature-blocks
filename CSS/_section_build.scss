@@ -43,7 +43,8 @@
     .build{
         background-image: url(../images/bg-hero-desktop.svg);
         background-size: 100%;
-
+        padding-bottom: 7em;
+        background-position-y: 120%;
         .content_wrap{
             article{
                 @include center;
@@ -53,21 +54,26 @@
                 }
                 .text_wrap{
                     text-align: left;
-                    padding-top: 4em;
+                    padding-top: 7.5em;
                     h1{
                         padding-right: 6.5em;
                         margin-bottom: .5em;
+                        font-size: 3em;
                     }
                     p{
                         padding-right: 2em;
-                        font-size: 1em;
-                        margin-bottom: 2em;
+                        font-size: 1.75em;
+                        margin-bottom: 1.5em;
                     }
                 }
                 .button{
                     text-align: center;
                     margin: 0;
-                    width: 15rem;
+                    width: 25rem;
+                    padding: 1.2em 1em 1.2em 1em;
+                    letter-spacing: .01em;
+                    font-weight: bold;
+                    // font-size: 1.75em;
                 }
             }
         }

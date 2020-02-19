@@ -83,6 +83,7 @@ h1 {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
             box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.25);
+    color: #00252e;
   }
 }
 
@@ -90,12 +91,14 @@ h1 {
 @media only screen and (min-width: 1024px) {
   header {
     margin-bottom: 3em;
+    padding-top: 2.5em;
   }
   header img {
-    width: 10rem;
+    width: 14rem;
   }
   header .button {
-    padding: .5rem 2rem .5rem 2rem;
+    padding: .8rem 3.5rem .8rem 3.5rem;
+    border-radius: 2rem;
   }
 }
 
@@ -141,6 +144,8 @@ h1 {
   .build {
     background-image: url(../images/bg-hero-desktop.svg);
     background-size: 100%;
+    padding-bottom: 7em;
+    background-position-y: 120%;
   }
   .build .content_wrap article {
     display: -webkit-box;
@@ -161,21 +166,25 @@ h1 {
   }
   .build .content_wrap article .text_wrap {
     text-align: left;
-    padding-top: 4em;
+    padding-top: 7.5em;
   }
   .build .content_wrap article .text_wrap h1 {
     padding-right: 6.5em;
     margin-bottom: .5em;
+    font-size: 3em;
   }
   .build .content_wrap article .text_wrap p {
     padding-right: 2em;
-    font-size: 1em;
-    margin-bottom: 2em;
+    font-size: 1.75em;
+    margin-bottom: 1.5em;
   }
   .build .content_wrap article .button {
     text-align: center;
     margin: 0;
-    width: 15rem;
+    width: 25rem;
+    padding: 1.2em 1em 1.2em 1em;
+    letter-spacing: .01em;
+    font-weight: bold;
   }
 }
 
@@ -256,7 +265,7 @@ h1 {
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
   .middle .content_wrap {
-    padding-bottom: 8em;
+    padding-bottom: 16em;
   }
   .middle .content_wrap .middle_piece {
     display: -webkit-box;
@@ -269,7 +278,7 @@ h1 {
         -ms-flex-align: center;
             align-items: center;
     padding: 0;
-    border-radius: .5em;
+    border-radius: 1em;
   }
   .middle .content_wrap .middle_piece img, .middle .content_wrap .middle_piece .text_wrap {
     width: 50%;
@@ -282,10 +291,11 @@ h1 {
     padding: 0% 5% 0% 10%;
   }
   .middle .content_wrap .middle_piece .text_wrap h1 {
-    font-size: 1em;
+    font-size: 2.5em;
+    margin-bottom: .5em;
   }
   .middle .content_wrap .middle_piece .text_wrap p {
-    font-size: .8em;
+    font-size: 1.3em;
   }
   .middle .content_wrap .middle_piece img {
     margin: 0;
@@ -299,7 +309,17 @@ h1 {
             flex-direction: row-reverse;
   }
   .middle .content_wrap :nth-child(4) {
-    width: 45em;
+    width: 60em;
+    height: 20em;
+    bottom: -11.5em;
+  }
+  .middle .content_wrap :nth-child(4) h1 {
+    font-size: 2em;
+  }
+  .middle .content_wrap :nth-child(4) .button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1em 3.5em 1em 3.5em;
   }
 }
 
@@ -368,6 +388,12 @@ h1 {
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+  .contact .content_wrap {
+    padding-top: 5em;
+  }
+  .contact .content_wrap img {
+    width: 17em;
+  }
   .contact .content_wrap .piece_wrap {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -375,14 +401,17 @@ h1 {
   }
   .contact .content_wrap .piece_wrap .contact_piece {
     width: 20%;
-    font-size: .6em;
+    font-size: 1em;
   }
   .contact .content_wrap .piece_wrap .contact_piece:nth-child(1) {
     margin-right: 8em;
-    width: 30%;
+    width: 22%;
+  }
+  .contact .content_wrap .piece_wrap .contact_piece:nth-child(3), .contact .content_wrap .piece_wrap .contact_piece:nth-child(2) {
+    padding-left: 7em;
   }
   .contact .content_wrap .piece_wrap .contact_piece:nth-child(3) {
-    margin-right: -4em;
+    margin-right: 1.5em;
   }
   .contact .content_wrap .piece_wrap .contact_piece:nth-child(4) {
     -webkit-box-align: start;
@@ -405,7 +434,7 @@ h1 {
 @media only screen and (min-width: 1024px) {
   .copyright {
     text-align: right;
-    font-size: .6em;
+    font-size: 1em;
   }
 }
 
