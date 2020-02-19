@@ -21,4 +21,13 @@
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+    header{
+        margin-bottom: 3em;
+        img{
+            width: 10rem;
+        }
+        .button{
+            padding: .5rem 2rem .5rem 2rem;
+        }
+    }
 }

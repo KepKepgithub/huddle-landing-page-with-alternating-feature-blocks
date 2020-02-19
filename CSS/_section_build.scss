@@ -40,4 +40,36 @@
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+    .build{
+        background-image: url(../images/bg-hero-desktop.svg);
+        background-size: 100%;
+
+        .content_wrap{
+            article{
+                @include center;
+                align-items: flex-start;
+                .text_wrap,img{
+                    width: 50%;
+                }
+                .text_wrap{
+                    text-align: left;
+                    padding-top: 4em;
+                    h1{
+                        padding-right: 6.5em;
+                        margin-bottom: .5em;
+                    }
+                    p{
+                        padding-right: 2em;
+                        font-size: 1em;
+                        margin-bottom: 2em;
+                    }
+                }
+                .button{
+                    text-align: center;
+                    margin: 0;
+                    width: 15rem;
+                }
+            }
+        }
+    }
 }

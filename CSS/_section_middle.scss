@@ -55,4 +55,41 @@
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+    .middle{
+        .content_wrap{
+            padding-bottom: 8em;
+            .middle_piece{
+                @include center;
+                padding: 0;
+                img,.text_wrap{
+                    width: 50%;
+                }
+                img,.text_wrap{
+                    padding: 0;
+                }
+                .text_wrap{
+                    text-align: left;
+                    padding: 0% 5% 0% 10%;
+                    h1{
+                        font-size: 1em;
+                    }
+                    p{
+                        font-size: .8em;
+                    }
+                }
+                img{
+                    margin: 0;
+                    padding: 5%;
+                    width: 40%;
+                }
+                border-radius: .5em;
+            }
+            .middle_piece:nth-child(1),.middle_piece:nth-child(3){
+                flex-direction: row-reverse;
+            }
+            :nth-child(4){
+                width: 45em;
+            }
+        }
+    }
 }
